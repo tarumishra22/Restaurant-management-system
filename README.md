@@ -29,3 +29,18 @@ A RESTful backend service built with **Python**, **Django**, and **Django REST F
    ```bash
    git clone <YOUR_REPO_URL>
    cd restaurant-management-system
+
+Scroll to the bottom and click the green **Commit changes...** button.
+
+---
+
+### 2. Add `requirements.txt` on GitHub
+
+1. Return to the main page of your repository.
+2. Click **Add file** $\rightarrow$ **Create new file**.
+3. In the filename box, type: **`requirements.txt`**
+4. Paste these lines into the file content box:
+
+```text
+Django>=5.0
+djangorestframework>=3.14.0
